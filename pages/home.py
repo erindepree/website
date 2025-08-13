@@ -39,6 +39,14 @@ st.markdown('''
             _Tools Used:_ python, pandas, numpy, plotly.express, Dash, jupyter notebook, etc
 ''')
 
+st.subheader('Identifying Kidney Conditions | GitHub')
+st.markdown('''
+            _Tools Used:_ python, keras, pytorch
+
+            Deep learning of images.  Constructed a convolution neural network with an accuracy of over 0.99 
+            on validation dataset.
+''')
+
 st.subheader('Predicting Deaths from Extreme Temperatures | GitHub')
 st.markdown('''
             _Tools Used:_ python, pandas, numpy, matplotlib, seaborn, sklearn, etc.
@@ -60,38 +68,41 @@ st.markdown('''
 
 st.subheader('Physics Majors Database')
 st.markdown('''
-_Tools Used:_ Google XXXX, Google Sheets (including searching the database, aggregating results, 
-            plotting majors per year with a 5 year running average, and pivot tables)
+            _Tools Used:_ Google Fusion Tables, Google Sheets
 ''')
 
-st.subheader('Title')
-st.markdown('''
-            _Tools Used:_ python, etc
-''')
 
 
 st.header('Experience')
 st.markdown('''
             ##### Data Science Fellow | General Assembly | 2025
-            * highlight
-            * highlight
+            * 13 week, full-time program on data science, to update my software skills and switch career paths
+            * Completed 5 projects (including a group project) through the entire data science lifecycle from 
+            data cleaning, early data analysis, modeling, improving models, interpretations, and deployment
 
             ##### Visiting Associate Professor of Physics | Bates College | 2022 - 2025
-            * highlight
-            * highlight
+            * Mentored new faculty as they adjusted to Bates
+            * Maintained a welcoming a supportive environments with students
+            * Taught introductory physics to upper-level elective in quantum mechanics
+            
         
             ##### Associate Professor of Physics | St. Mary's College of Maryland | 2008 - 2022
-            * highlight
-            * highlight
+            * Created a 10 part career program that helps students explore post-college options resulting in an 
+            increase of student research participation from 60% to 95%.
+            * Improved learning environment by developing an in-class inclusion and anti-bullying workshop, 
+            dramatically increased graduation rates among underrepresented groups in physics.
+            * Developed a semester-long computer programming course to solve a range of physics problems using 
+            Mathematica which was self-taught
+
 ''')
 
 st.header('Education')
 st.markdown('''
-            ##### Data Science Bootcamp | General Assembly | 2025
+            **Data Science Bootcamp** | General Assembly | 2025
 
-            ##### Ph.D., physics | The College of William & Mary | 2008
+            **Ph.D., physics** | The College of William & Mary | 2008
 
-            ##### M.S., physics | The College of William & Mary | 2004
+            **M.S., physics** | The College of William & Mary | 2004
 
-            ##### B.S., physics and math majors | Hillsdale College | 2003
+            **B.S., physics and math majors** | Hillsdale College | 2003
 ''')

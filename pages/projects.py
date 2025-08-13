@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.title('Projects')
 
-st.header('🐈‍⬛ Feline Metrics')
+st.header('🐈‍⬛ Feline Metrics | GitHub')
 col1, col2 = st.columns([1,3])
 
 col1.image('./images/Mel_alert_2023.jpeg', width=150)
@@ -22,12 +22,21 @@ col2.markdown('''
 ''')
 
 
-st.header('Predicting Deaths from Extreme Temperatures | GitHub')
+st.header('Predicting Deaths Globally from Extreme Temperatures')
+st.subheader('Group GitHub | Personal GitHub')
 st.markdown('''
             _Tools Used:_ python, pandas, numpy, matplotlib, seaborn, sklearn, etc.
             * Group project using ERA5 satelite temperature data to identify extreme temperature events
             * Used the EM-DAT emergency database to model deaths as a function of extreme temperature and duration of the event
-            * I served as the group leader, organized the group's GitHub repository, kept the group on track, and wrote about half of the report
+            * I served as the group leader, organized the group's GitHub repository, kept the group on track, and wrote at least half of the report
+''')
+
+st.header('Predicting Housing Prices | GitHub')
+st.markdown('''
+            _Tools Used:_ python, pandas, numpy, sklearn, etc
+
+            * EDA, feature extraction
+            * Multiple models
 ''')
 
 st.header('🌍 Regional Affiliations | [GitHub](https://github.com/erindepree/world-regions)')
@@ -47,24 +56,9 @@ st.markdown('''
 
 st.header('Physics Majors Database')
 st.markdown('''
-_Tools Used:_ Google XXXX, Google Sheets (including searching the database, aggregating results, 
-            plotting majors per year with a 5 year running average, and pivot tables)
+            _Tools Used:_ Google Fusion Tables, Google Sheets (searching, aggregating, plots, pivot tables, etc)
+            
+            * Tracked contact information for all physics majors, minors, and alums.  
+            Including awards won while a student, career tracking
+            * Aggregated data to study alumni characteristics and changes over time
 ''')
-
-
-st.header('Housing Prices')
-st.markdown('''
-            _Tools Used:_ python, etc
-''')
-
-
-st.header('Extreme Temperatures')
-st.markdown('''
-            _Tools Used:_ python, etc
-''')
-
-st.header('Title')
-st.markdown('''
-            _Tools Used:_ python, etc
-''')
-
