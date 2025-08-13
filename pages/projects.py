@@ -21,6 +21,15 @@ col2.markdown('''
             history (don't worry, Mel is fine, soft tissue injury to her leg)
 ''')
 
+
+st.header('Predicting Deaths from Extreme Temperatures | GitHub')
+st.markdown('''
+            _Tools Used:_ python, pandas, numpy, matplotlib, seaborn, sklearn, etc.
+            * Group project using ERA5 satelite temperature data to identify extreme temperature events
+            * Used the EM-DAT emergency database to model deaths as a function of extreme temperature and duration of the event
+            * I served as the group leader, organized the group's GitHub repository, kept the group on track, and wrote about half of the report
+''')
+
 st.header('🌍 Regional Affiliations | [GitHub](https://github.com/erindepree/world-regions)')
 st.markdown('''
             _Tools Used:_ python, etc

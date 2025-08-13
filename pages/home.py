@@ -6,7 +6,7 @@ st.set_page_config(
 )
 st.title('Erin De Pree, Ph.D. | Data Scientist')
 
-st.markdown(':email: erindepree@gmail.com | [in/edepree](http://linkedin.com/in/edepree)')
+st.markdown(':email: erindepree@gmail.com | [in/edepree](http://linkedin.com/in/edepree) | [github.com/erindepree](https://github.com/erindepree)')
 st.markdown('_Greater DC/Baltimore metropolitian areas, willing to move_')
 
 st.markdown('''
@@ -23,10 +23,11 @@ st.markdown('''
 st.header('Skills')
 st.markdown('''
             * Python (pandas, numpy, matplotlib, seaborn, sklearn, streamlit, keras, etc)
-            * Mathematica (modules, dynamic modules, plots (2D, 3D, vectors, contour, etc), animations)
+            * Deep learning (keras, pytorch, hugging faces, etc)
+            * Mathematica (modules, dynamic modules, plots (2D, 3D, vector, contour, etc), animations)
             * SQL (SQlite and TAP)
-            * GoogleCloud
-            * VizieR
+            * GoogleBigQuery
+            * Google Colab
             * LaTeX (including TikZ, developed style and class files, BibTeX)
             ''')
 
@@ -36,6 +37,14 @@ st.header('Projects') # add a link
 st.subheader('FelineMetrics | GitHub')
 st.markdown('''
             _Tools Used:_ python, pandas, numpy, plotly.express, Dash, jupyter notebook, etc
+''')
+
+st.subheader('Predicting Deaths from Extreme Temperatures | GitHub')
+st.markdown('''
+            _Tools Used:_ python, pandas, numpy, matplotlib, seaborn, sklearn, etc.
+            * Group project using ERA5 satelite temperature data to identify extreme temperature events
+            * Used the EM-DAT emergency database to model deaths as a function of extreme temperature and duration of the event
+            * I served as the group leader, organized the group's GitHub repository, kept the group on track, and wrote about half of the report
 ''')
 
 st.subheader('Regional Affiliations | [GitHub](https://github.com/erindepree/world-regions)')
