@@ -1,0 +1,61 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title='Erin De Pree | portfolio',
+    page_icon=':bar_chart:'
+)
+
+st.title('Projects')
+
+st.header('🐈‍⬛ Feline Metrics')
+col1, col2 = st.columns([1,3])
+
+col1.image('./images/Mel_alert_2023.jpeg', width=150)
+
+col2.markdown('''
+            _Tools Used:_ python, pandas, numpy, plotly.express, Dash, jupyter notebook, etc.
+
+            * Cloud-based, secure medical record for my cat, Mel
+            * Creates automated reports on significant data over time (especially weight, liver and kidney values)
+            * Inspired after an emergency when I couldn't find my notebook with her 14 year medical 
+            history (don't worry, Mel is fine, soft tissue injury to her leg)
+''')
+
+st.header('🌍 Regional Affiliations | [GitHub](https://github.com/erindepree/world-regions)')
+st.markdown('''
+            _Tools Used:_ python, etc
+''')
+
+st.header('Astrometry of Double Stars')
+st.markdown('''
+            _Tools Used:_ ADQL with TAP protocol on [VizieR](https://tapvizier.cds.unistra.fr/adql/), 
+            Google Sheets, Mathematica
+
+            * description
+            * link to paper with Matt
+            * [paper](http://www.jdso.org/volume20/number4/DePree_503_510.pdf)
+''')
+
+st.header('Physics Majors Database')
+st.markdown('''
+_Tools Used:_ Google XXXX, Google Sheets (including searching the database, aggregating results, 
+            plotting majors per year with a 5 year running average, and pivot tables)
+''')
+
+
+st.header('Housing Prices')
+st.markdown('''
+            _Tools Used:_ python, etc
+''')
+
+
+st.header('Extreme Temperatures')
+st.markdown('''
+            _Tools Used:_ python, etc
+''')
+
+st.header('Title')
+st.markdown('''
+            _Tools Used:_ python, etc
+''')
+
